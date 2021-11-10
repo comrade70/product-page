@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="style.css" type=text/css>
+</head>
+<body>
+
+    <!---HEADER-->
+    <header id="header">
+        <img src="assets/ids-logo.jpg" alt="logo" id="header-img">
+        <nav id="nav-bar">
+            <ul class="nav-bar">
+                <li><a class="nav-link" href="#product">BUNDLES</a></li>
+                <li><a class="nav-link" href="#subscription-form">SUBSCRIBE</a></li>
+                <li><a class="nav-link" href="#playback">JINGLE</a></li>
+                
+            </ul>
+
+        </nav>
+    </header>
+    <!---HERO-->
+
+    <div class="hero">
+        <div id="hero-head">
+            <h2 id="hero-topic">We are a leading institution making positive impacts in the lives of youth.</h2>
+            <p id="hero-subtopic">We organise several trainings. Amongst them are: Personal Development, Financial Intelligence & Relationship Talks.</p>
+          <a href="#"><button type="submit" id="hero-button">REGISTER</button>
+</a>
+        </div>
+    
+        <img src="assets/mentorship.png" alt="mentorship picture">
+       
+    </div>
+
+    <div class="playback" id="playback">
+        <h2 class="text-center">JINGLE</h2>
+        <p id="subheading">Message from the Coach</p>
+        <iframe id="video" width="320" height="270" src="https://youtu.be/aW3YIXkr1Hw" controls="1" frameborder="0"></iframe>
+    </div>
+
+
+    <!--PRODUCT-->
+    <section id="product">
+        <h2 id="product-title">BUNDLES</h2>
+        <p id="subheading">We have different bundle options </p>
+        <div class="container">
+            <div class="card">
+                <div class="title chocolate">
+                    <h3 class="card-title">STARTER PLAN</h3>
+                </div>
+                <h4 class="card-subtitle">#10,000</h4>
+                <ol>
+                    <li>1 Month Mentorship</li>
+                    <li>Network</li>
+                    <li>Videos</li>
+                    <li>PDF</li>
+                </ol>
+              <a href=""><button type="submit" id="button" class="chocolate">REGISTER</button>
+</a>
+            </div>
+
+            <div class="card">
+                <div class="title chocolate">
+                    <h3 class="card-title">INTERMEDIATE PLAN</h3>
+                </div>
+                <h4 class="card-subtitle">#20,000</h4>
+                <ol>
+                    <li>6 Months Mentorship</li>
+                    <li>Network</li>
+                    <li>Videos</li>
+                    <li>PDF</li>
+                </ol>
+              <a href="#"><button type="submit" id="button" class="chocolate">REGISTER</button></a> 
+            </div>
+
+            <div class="card">
+                <div class="title chocolate">
+                    <h3 class="card-title">MASTER PLAN</h3>
+                </div>
+                <h4 class="card-subtitle">#50,000</h4>
+                <ol>
+                    <li>1 Year Mentorship</li>
+                    <li>Network</li>
+                    <li>Videos</li>
+                    <li>PDF</li>
+                </ol>
+              <a href="#"><button type="submit" id="button" class="chocolate">REGISTER</button>
+</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!---SUBSCRIPTION FORM-->
+    
+    <div id="form">
+        <h2 class="text-center">SUBSCRIBE TO OUR NEWSLETTER</h2>
+        <p id="subheading">Kindly subscribe to receive updates about our new packages </p>
+        <div id="subscription-form">
+        <form action="#" method="POST" id="form-control">
+            <div class="input-field">
+                <label for="name">NAME</label>
+                <input type="name" id="name" name="name" placeholder="enter your name" required>
+            </div>
+
+            <div class="input-field">
+                <label for="email">EMAIL</label>
+                <input type="email" id="nemail" name="email" placeholder="enter your email address" required>
+            </div>
+
+            <input type="submit" value="SUBMIT" id="submit">
+
+        </form>
+        </div>
+    </div>
+
+    <!---FOOTER-->
+    <footer id="footer">
+        <div class="copyright">
+            <p class="text-center"> Copyrights &copy 2021</p>
+        </div>
+        <div class="credit">
+           <p class="text-center"> Designed by  <a href="#">Joseph Ademola </a></p>
+        </div>
+    </footer>
+    
+</body>
+</html>
